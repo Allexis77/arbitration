@@ -1,0 +1,168 @@
+$primary: #f99406
+.autor
+    height: 100vh
+    &-box
+        display: flex
+        justify-content: space-around
+        margin: 200px 0
+        &__photo       
+            position: relative
+            &::after
+                content: ''
+                margin: 3px 0
+                border: 3px solid $primary
+                padding: 300px
+                display: inline-block
+                position: absolute
+                top: -12%
+                background: radial-gradient(ellipse at center,rgba(255,255,255,.1) 1%,transparent 75%)
+                left: 50%
+                width: 734px
+                z-index: -1
+        &__text
+            &-span
+                text-transform: uppercase
+            &-h 
+                position: relative
+                & h2
+                    font-size: 40px
+                    font-weight: 400
+                    color: #fff
+                    text-transform: uppercase
+                    &::after
+                        content: ''
+                        border-bottom: 2px solid #272c33
+                        padding: 2px
+                        width: 400px
+                        position: absolute
+                        bottom: 0
+                        left: -25%
+                        z-index: -4
+            &-descr
+                padding: 30px 0
+                width: 230px
+                & span
+                    font-weight: 300
+                    font-size: 14px
+                    color: #bdbdbd
+            &-p
+                width: 400px
+                height: 250px
+                padding: 10px 0
+                & p 
+                    font-size: 18px
+                    color: #bdbdbd
+.graphic
+    height: 70vh
+    background:  url(../img/bg/lines-bg.png) bottom no-repeat
+    &-boxes
+        background: url(../img/graphic.png) center no-repeat
+    &-lines
+        & div 
+            border-bottom: 1px solid $primary 
+            width: 40px
+            margin: 10px 0
+            &:last-child
+                margin: 10px
+                
+    &-h
+        font-size: 40px
+        font-weight: 400
+        color: #fff
+    &-box       
+        height: 100vh
+        position: relative
+        &__tabs
+            position: absolute
+            &-1
+                top: 35%
+                left: 0%
+                & p
+                    width: 70%
+                &:hover
+                    &::after   
+                        content: ''                 
+                        width: 40px
+                        height: 40px
+                        background: rgba(255, 255, 255, 0.2)
+                        border-radius: 100%
+                        position: absolute
+                        top: 166%
+                        left: 2.4%        
+            &-2
+                top:  25%
+                left: 25%
+                & p
+                    width: 70%
+                &:hover
+                    &::after   
+                        content: ''                 
+                        width: 40px
+                        height: 40px
+                        background: rgba(255, 255, 255, 0.2)
+                        border-radius: 100%
+                        position: absolute
+                        top: 178%
+                        left: 6.4%           
+            &-3
+                top: 35%
+                left: 45%
+                & p
+                    width: 70%
+                &:hover
+                    &::after   
+                        content: ''                 
+                        width: 40px
+                        height: 40px
+                        background: rgba(255, 255, 255, 0.2)
+                        border-radius: 100%
+                        position: absolute
+                        top: 201.5%
+                        left: 1%
+            &-4
+                top: 23%
+                left: 60%
+                & p
+                    margin-left: 15px
+                    width: 80%
+                &:hover
+                    &::after   
+                        content: ''                 
+                        width: 40px
+                        height: 40px
+                        background: rgba(255, 255, 255, 0.2)
+                        border-radius: 100%
+                        position: absolute
+                        top: 190.5%
+                        left: 29.4%
+            &-5
+                top: 18%
+                left: 85%
+                & p
+                    margin: 10px 20px
+                    width: 100%
+                &:hover
+                    &::after   
+                        content: ''                 
+                        width: 40px
+                        height: 40px
+                        background: rgba(255, 255, 255, 0.2)
+                        border-radius: 100%
+                        position: absolute
+                        top: 190%
+                        left: -2.6%
+            &-number
+                position: absolute
+                font-weight: 800
+                font-size: 72px
+                top: -90%
+                left: -11.4%
+                z-index: -3
+                color: #fff
+                opacity: 0.1
+            &-text
+                & p
+                    font-size: 18px
+                    font-weight: 300
+                    color: #ffffff
+                    z-index: 3
